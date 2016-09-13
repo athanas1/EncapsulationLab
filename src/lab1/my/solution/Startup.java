@@ -20,12 +20,12 @@ public class Startup {
             may need to create a new class that talks to Employee. This does
             not have to be a GUI class.
         */
-       Manager m1 = new Manager();
-       m1.OrientEmployee("John", "Smith", "111-11-1111");
+       Manager manager = new Manager();
+       manager.orientEmployee("John", "Smith", "111-11-1111");
 
-        System.out.println("The employee's status is: " + m1.getStatus());
+        System.out.println("The employee's status is: " + manager.getStatus());
         
-        System.out.println(m1.employee.getFirstName());
+        System.out.println(manager.employee.getFirstName());
     }
     
     

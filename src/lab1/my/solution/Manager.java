@@ -14,7 +14,7 @@ public class Manager {
     // Creating
      public Employee employee;
     //have to get info on new employee 
-    public void OrientEmployee(String firstName, String lastName, String ssn){
+    public void orientEmployee(String firstName, String lastName, String ssn){
     Employee e = new Employee();
     e.setFirstName(firstName);
     e.setLastName(lastName);
